@@ -24,7 +24,7 @@ export const CanvasHandler: React.FC<Props> = (props) => {
     <ul className={classNames(styles.handler, className)}>
       <Popover
         overlayClassName={styles.popover}
-        content="放大"
+        content="Zoom In"
         placement="left"
       >
         <li onClick={onZoomIn} className={styles.item}>
@@ -33,7 +33,7 @@ export const CanvasHandler: React.FC<Props> = (props) => {
       </Popover>
       <Popover
         overlayClassName={styles.popover}
-        content="缩小"
+        content="Zoom Out"
         placement="left"
       >
         <li onClick={onZoomOut} className={styles.item}>
@@ -42,7 +42,7 @@ export const CanvasHandler: React.FC<Props> = (props) => {
       </Popover>
       <Popover
         overlayClassName={styles.popover}
-        content="实际尺寸"
+        content="Actual Size"
         placement="left"
       >
         <li onClick={onRealContent} className={styles.item}>
@@ -51,7 +51,7 @@ export const CanvasHandler: React.FC<Props> = (props) => {
       </Popover>
       <Popover
         overlayClassName={styles.popover}
-        content="适应画布"
+        content="Fit To Content"
         placement="left"
       >
         <li onClick={onFitContent} className={styles.item}>
