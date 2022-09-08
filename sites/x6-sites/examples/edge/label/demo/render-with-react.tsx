@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Markup } from '@antv/x6'
+import { Graph, Markup } from '@digiforce-cloud/x6'
 import ReactDOM from 'react-dom'
 
 class Label extends React.Component {

@@ -1,4 +1,4 @@
-import { Graph, Markup } from '@antv/x6'
+import { Graph, Markup } from '@digiforce-cloud/x6'
 
 const graph = new Graph({
   container: document.getElementById('container'),

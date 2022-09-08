@@ -1,5 +1,5 @@
 {
-  "name": "@antv/x6",
+  "name": "@digiforce-cloud/x6",
   "version": "1.34.0",
   "description": "JavaScript diagramming library that uses SVG and HTML for rendering.",
   "main": "lib/index.js",
@@ -59,11 +59,11 @@
     ]
   },
   "inherits": [
-    "@antv/x6-package-json/cli.json",
-    "@antv/x6-package-json/less.json",
-    "@antv/x6-package-json/karma.json",
-    "@antv/x6-package-json/eslint.json",
-    "@antv/x6-package-json/rollup.json"
+    "@digiforce-cloud/x6-package-json/cli.json",
+    "@digiforce-cloud/x6-package-json/less.json",
+    "@digiforce-cloud/x6-package-json/karma.json",
+    "@digiforce-cloud/x6-package-json/eslint.json",
+    "@digiforce-cloud/x6-package-json/rollup.json"
   ],
   "dependencies": {
     "csstype": "^3.0.3",

@@ -15,7 +15,7 @@ const prev = fse.existsSync(dist)
   : null
 
 const next = `/* eslint-disable */
-
+// @ts-ignore
 /**
 * Auto generated file by copying from node_modules, do not modify it!
 */

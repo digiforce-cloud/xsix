@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, StringExt, JQuery } from '@antv/x6'
+import { Graph, StringExt, JQuery } from '@digiforce-cloud/x6'
 import { Settings, State } from './settings'
 import './app.css'
 

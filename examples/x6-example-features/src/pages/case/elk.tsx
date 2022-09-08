@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Cell } from '@antv/x6'
+import { Graph, Cell } from '@digiforce-cloud/x6'
 import ELK, { ElkNode, ElkExtendedEdge, ElkEdge } from 'elkjs/lib/elk-api.js'
 import elkWorker from 'elkjs/lib/elk-worker.js'
 import elkdata from './elkdata.json'

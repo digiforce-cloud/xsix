@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, EdgeView } from '@antv/x6'
+import { Graph, EdgeView } from '@digiforce-cloud/x6'
 import './distance-shape'
 import '../index.less'
 

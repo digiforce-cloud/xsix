@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph, Node, Path, Cell } from '@antv/x6'
-import '@antv/x6-react-shape'
+import { Graph, Node, Path, Cell } from '@digiforce-cloud/x6'
+import '@digiforce-cloud/x6-react-shape'
 import '../index.less'
 import './index.less'
 interface NodeStatus {

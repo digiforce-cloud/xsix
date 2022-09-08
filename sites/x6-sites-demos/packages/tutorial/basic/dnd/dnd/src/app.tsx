@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Dom, Addon } from '@antv/x6'
+import { Graph, Dom, Addon } from '@digiforce-cloud/x6'
 import './app.css'
 
 const { Dnd } = Addon

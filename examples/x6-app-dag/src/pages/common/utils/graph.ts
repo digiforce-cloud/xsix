@@ -1,4 +1,4 @@
-import { Graph } from '@antv/x6'
+import { Graph } from '@digiforce-cloud/x6'
 
 // 将画布上的点转换成相对于 offset parent 的点
 export function graphPointToOffsetPoint(

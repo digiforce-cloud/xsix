@@ -1,4 +1,4 @@
-import { NumberExt, Shape, Path, Point, JSONObject } from '@antv/x6'
+import { NumberExt, Shape, Path, Point, JSONObject } from '@digiforce-cloud/x6'
 
 interface KnobsAttrValue extends JSONObject {
   round: boolean | string | number

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph, Color } from '@antv/x6'
-import { Button } from '@antv/x6/es/registry/tool/button'
+import { Graph, Color } from '@digiforce-cloud/x6'
+import { Button } from '@digiforce-cloud/x6/es/registry/tool/button'
 import './app.css'
 
 // eslint-disable-next-line

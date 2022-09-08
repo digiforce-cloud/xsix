@@ -1,4 +1,4 @@
-import { Edge as X6Edge } from '@antv/x6';
+import { Edge as X6Edge } from '@digiforce-cloud/x6';
 
 export default class Edge extends X6Edge {
   constructor() {

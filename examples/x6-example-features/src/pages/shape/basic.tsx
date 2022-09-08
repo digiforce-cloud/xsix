@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Node, Vector } from '@antv/x6'
+import { Graph, Node, Vector } from '@digiforce-cloud/x6'
 import '../index.less'
 
 export default class Example extends React.Component {
@@ -86,8 +86,7 @@ export default class Example extends React.Component {
       width: 40,
       height: 40,
       label: 'path',
-      d:
-        'M25.979,12.896 19.312,12.896 19.312,6.229 12.647,6.229 12.647,12.896 5.979,12.896 5.979,19.562 12.647,19.562 12.647,26.229 19.312,26.229 19.312,19.562 25.979,19.562z',
+      d: 'M25.979,12.896 19.312,12.896 19.312,6.229 12.647,6.229 12.647,12.896 5.979,12.896 5.979,19.562 12.647,19.562 12.647,26.229 19.312,26.229 19.312,19.562 25.979,19.562z',
     })
 
     console.log(path)

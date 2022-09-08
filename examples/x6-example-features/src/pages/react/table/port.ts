@@ -1,5 +1,5 @@
-import { Graph, Point, Markup, Dom } from '@antv/x6'
-import { PortLayout } from '@antv/x6/es/registry/port-layout'
+import { Graph, Point, Markup, Dom } from '@digiforce-cloud/x6'
+import { PortLayout } from '@digiforce-cloud/x6/es/registry/port-layout'
 
 export interface PortArgs extends PortLayout.CommonArgs {
   offset?: number

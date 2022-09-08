@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph, Edge } from '@antv/x6'
-import { Vertices } from '@antv/x6/es/registry/tool/vertices'
+import { Graph, Edge } from '@digiforce-cloud/x6'
+import { Vertices } from '@digiforce-cloud/x6/es/registry/tool/vertices'
 import './app.css'
 
 // eslint-disable-next-line

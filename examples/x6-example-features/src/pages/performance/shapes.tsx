@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Cell, Node as N, Edge as E } from '@antv/x6'
+import { Graph, Cell, Node as N, Edge as E } from '@digiforce-cloud/x6'
 import '../index.less'
 
 // Overall goals

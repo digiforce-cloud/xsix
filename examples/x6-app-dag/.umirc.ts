@@ -14,7 +14,7 @@ export default defineConfig({
     [
       'import',
       {
-        libraryName: '@antv/x6-react-components',
+        libraryName: '@digiforce-cloud/x6-react-components',
         libraryDirectory: 'es',
         transformToDefaultImport: false,
         style: true,

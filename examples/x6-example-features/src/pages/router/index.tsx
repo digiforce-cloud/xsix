@@ -1,6 +1,6 @@
 import React from 'react'
 import { Radio } from 'antd'
-import { Graph, Edge, EdgeView } from '@antv/x6'
+import { Graph, Edge, EdgeView } from '@digiforce-cloud/x6'
 import '../index.less'
 
 export default class Example extends React.Component<

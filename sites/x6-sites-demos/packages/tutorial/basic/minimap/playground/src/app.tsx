@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Graph } from '@antv/x6'
+import { Graph } from '@digiforce-cloud/x6'
 import { SimpleNodeView } from './view'
 import './app.css'
 

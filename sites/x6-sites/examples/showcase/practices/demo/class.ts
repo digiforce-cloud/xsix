@@ -1,4 +1,4 @@
-import { Graph, ObjectExt, Cell } from '@antv/x6'
+import { Graph, ObjectExt, Cell } from '@digiforce-cloud/x6'
 
 // #region 注册基础图形
 Graph.registerNode(

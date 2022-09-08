@@ -1,4 +1,4 @@
-import { Graph, Cell } from '@antv/x6'
+import { Graph, Cell } from '@digiforce-cloud/x6'
 
 Graph.registerNode(
   'event',

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Checkbox, InputNumber, Button } from 'antd'
-import { Graph, Cell, Node, Shape, View, Rectangle } from '@antv/x6'
+import { Graph, Cell, Node, Shape, View, Rectangle } from '@digiforce-cloud/x6'
 import '../index.less'
 
 function random(max: number, min: number) {
@@ -181,7 +181,7 @@ export default class Example extends React.Component<
 
     edges.shift()
 
-    this.viewport = (viewportTemplate.clone() as any) as Node
+    this.viewport = viewportTemplate.clone() as any as Node
 
     console.time('perf-reset')
 

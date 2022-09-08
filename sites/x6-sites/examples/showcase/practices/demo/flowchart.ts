@@ -1,4 +1,4 @@
-import { Graph, Shape, Addon } from '@antv/x6'
+import { Graph, Shape, Addon } from '@digiforce-cloud/x6'
 import insertCss from 'insert-css'
 
 // 为了协助代码演示

@@ -1,4 +1,4 @@
-import { Rect, Edge } from '@antv/x6/es/shape/standard'
+import { Rect, Edge } from '@digiforce-cloud/x6/es/shape/standard'
 
 export class Event extends Rect {
   static create(label: string) {
@@ -53,10 +53,8 @@ export class IntermediateEvent extends Event {
     })
   }
   gateTypes = {
-    or:
-      'M -20 0 C -20 -15 -10 -30 0 -30 C 10 -30 20 -15 20 0 C 10 -6 -10 -6 -20 0',
-    xor:
-      'M -20 0 C -20 -15 -10 -30 0 -30 C 10 -30 20 -15 20 0 C 10 -6 -10 -6 -20 0 M -20 0 0 -30 M 0 -30 20 0',
+    or: 'M -20 0 C -20 -15 -10 -30 0 -30 C 10 -30 20 -15 20 0 C 10 -6 -10 -6 -20 0',
+    xor: 'M -20 0 C -20 -15 -10 -30 0 -30 C 10 -30 20 -15 20 0 C 10 -6 -10 -6 -20 0 M -20 0 0 -30 M 0 -30 20 0',
     and: 'M -20 0 C -20 -25 -10 -30 0 -30 C 10 -30 20 -25 20 0 Z',
     priority_and:
       'M -20 0 C -20 -25 -10 -30 0 -30 C 10 -30 20 -25 20 0 Z M -20 0 0 -30 20 0',

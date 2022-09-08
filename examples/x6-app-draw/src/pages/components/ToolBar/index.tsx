@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Toolbar } from '@antv/x6-react-components'
+import { Toolbar } from '@digiforce-cloud/x6-react-components'
 import FlowGraph from '../../Graph'
-import { DataUri } from '@antv/x6'
+import { DataUri } from '@digiforce-cloud/x6'
 import {
   ClearOutlined,
   SaveOutlined,
@@ -10,7 +10,7 @@ import {
   ZoomInOutlined,
   ZoomOutOutlined,
 } from '@ant-design/icons'
-import '@antv/x6-react-components/es/toolbar/style/index.css'
+import '@digiforce-cloud/x6-react-components/es/toolbar/style/index.css'
 
 const Item = Toolbar.Item
 const Group = Toolbar.Group

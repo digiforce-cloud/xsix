@@ -1,11 +1,11 @@
 {
-  "name": "@antv/x6-sites-demos-tutorial.basic.port.connect-to-port",
+  "name": "@digiforce-cloud/x6-sites-demos-tutorial.basic.port.connect-to-port",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
-    "@antv/x6": "latest",
-    "@antv/x6-sites-demos-helper": "latest",
+    "@digiforce-cloud/x6": "1.34.0",
+    "@digiforce-cloud/x6-sites-demos-helper": "latest",
     "antd": "^4.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

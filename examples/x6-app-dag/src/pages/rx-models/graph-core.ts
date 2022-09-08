@@ -1,6 +1,6 @@
 /* eslint-disable class-methods-use-this */
-import { Graph, Cell, Node, Edge } from '@antv/x6'
-import { Collection } from '@antv/x6/es/model/collection'
+import { Graph, Cell, Node, Edge } from '@digiforce-cloud/x6'
+import { Collection } from '@digiforce-cloud/x6/es/model/collection'
 import { BehaviorSubject, fromEventPattern, Subscription, merge } from 'rxjs'
 import { debounceTime, map, tap, scan } from 'rxjs/operators'
 import './graph-core.less'

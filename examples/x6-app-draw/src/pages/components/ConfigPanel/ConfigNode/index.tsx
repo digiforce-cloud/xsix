@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { Tabs, Row, Col, Input, Slider } from 'antd'
 import FlowGraph from '@/pages/Graph'
-import { Cell } from '@antv/x6'
+import { Cell } from '@digiforce-cloud/x6'
 
 const { TabPane } = Tabs
 

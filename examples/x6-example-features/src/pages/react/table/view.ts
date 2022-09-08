@@ -1,5 +1,5 @@
-import { Graph, Edge } from '@antv/x6'
-import { ReactShapeView } from '@antv/x6-react-shape'
+import { Graph, Edge } from '@digiforce-cloud/x6'
+import { ReactShapeView } from '@digiforce-cloud/x6-react-shape'
 import { generateData, parsePorts } from './data'
 
 export class TableNodeView extends ReactShapeView {

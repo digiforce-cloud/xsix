@@ -4,7 +4,7 @@ import {
   TemplateRef,
   ViewContainerRef,
 } from '@angular/core'
-import { NodeView, Scheduler } from '@antv/x6'
+import { NodeView, Scheduler } from '@digiforce-cloud/x6'
 import {
   ComponentPortal,
   DomPortalOutlet,

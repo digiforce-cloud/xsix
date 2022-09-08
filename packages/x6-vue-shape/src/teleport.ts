@@ -1,5 +1,5 @@
 import { defineComponent, h, reactive, isVue3, Vue } from 'vue-demi'
-import { Graph, NodeView, Scheduler } from '@antv/x6'
+import { Graph, NodeView, Scheduler } from '@digiforce-cloud/x6'
 import { VueShape } from './node'
 import { VueShapeView } from './view'
 

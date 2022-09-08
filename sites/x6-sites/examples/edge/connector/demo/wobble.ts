@@ -1,4 +1,4 @@
-import { Graph, Path, Point } from '@antv/x6'
+import { Graph, Path, Point } from '@digiforce-cloud/x6'
 
 // 帮助文档：https://x6.antv.vision/zh/docs/api/registry/connector#registry
 Graph.registerConnector(

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Cell, Node } from '@antv/x6'
+import { Graph, Cell, Node } from '@digiforce-cloud/x6'
 import { connectors } from '../connector/xmind-definitions'
 import Hierarchy from '@antv/hierarchy'
 import '../index.less'

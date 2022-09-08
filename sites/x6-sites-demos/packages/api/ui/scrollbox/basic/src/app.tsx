@@ -1,6 +1,6 @@
 import React from 'react'
-import { ScrollBox } from '@antv/x6-react-components'
-import '@antv/x6-react-components/es/scroll-box/style/index.css'
+import { ScrollBox } from '@digiforce-cloud/x6-react-components'
+import '@digiforce-cloud/x6-react-components/es/scroll-box/style/index.css'
 
 export default class Example extends React.PureComponent {
   render() {

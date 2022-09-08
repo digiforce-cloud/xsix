@@ -1,4 +1,4 @@
-import { Graph, Cell, CellView, Node } from '@antv/x6'
+import { Graph, Cell, CellView, Node } from '@digiforce-cloud/x6'
 
 Graph.registerNode(
   'lane',

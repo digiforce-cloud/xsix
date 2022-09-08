@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph } from '@antv/x6'
-import { Graph as GraphES } from '@antv/x6/lib'
+import { Graph } from '@digiforce-cloud/x6'
+import { Graph as GraphES } from '@digiforce-cloud/x6/lib'
 import '../index.less'
 
 export default class Example extends React.Component {

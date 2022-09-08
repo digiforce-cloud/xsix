@@ -1,4 +1,4 @@
-import { Graph as X6Graph, Node } from '@antv/x6';
+import { Graph as X6Graph, Node } from '@digiforce-cloud/x6';
 
 export interface BaseGraph {
   /**

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph, Node } from '@antv/x6'
-import '@antv/x6-react-shape'
+import { Graph, Node } from '@digiforce-cloud/x6'
+import '@digiforce-cloud/x6-react-shape'
 import data from './data.json'
 import '../index.less'
 import './index.less'

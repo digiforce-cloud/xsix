@@ -10,9 +10,9 @@ export default config({
       globals: {
         react: 'React',
         'react-dom': 'ReactDOM',
-        '@antv/x6': 'X6',
+        '@digiforce-cloud/x6': 'X6',
       },
     },
   ],
-  external: ['@antv/x6', 'react', 'react-dom'],
+  external: ['@digiforce-cloud/x6', 'react', 'react-dom'],
 })

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
-import { Graph, Edge } from '@antv/x6'
+import { Graph, Edge } from '@digiforce-cloud/x6'
 import '../index.less'
 
 export default class Example extends React.Component<

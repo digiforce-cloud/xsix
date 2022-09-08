@@ -1,4 +1,4 @@
-import { NodeView } from '@antv/x6'
+import { NodeView } from '@digiforce-cloud/x6'
 
 export class SimpleNodeView extends NodeView {
   protected renderMarkup() {

@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import { Tooltip } from 'antd'
-import { Graph, ToolsView, EdgeView } from '@antv/x6'
+import { Graph, ToolsView, EdgeView } from '@digiforce-cloud/x6'
 class TooltipTool extends ToolsView.ToolItem<EdgeView, TooltipToolOptions> {
   private knob: HTMLDivElement
 

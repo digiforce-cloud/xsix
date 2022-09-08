@@ -1,4 +1,4 @@
-import { NodeView, Scheduler } from '@antv/x6'
+import { NodeView, Scheduler } from '@digiforce-cloud/x6'
 import { isVue2, isVue3, createApp, h, Vue2 } from 'vue-demi'
 import { VueShape } from './node'
 

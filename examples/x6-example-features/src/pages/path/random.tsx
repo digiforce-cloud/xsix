@@ -1,4 +1,4 @@
-import { Point, Vector } from '@antv/x6'
+import { Point, Vector } from '@digiforce-cloud/x6'
 import React from 'react'
 import '../index.less'
 

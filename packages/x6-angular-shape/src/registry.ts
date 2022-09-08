@@ -1,6 +1,6 @@
 import { ComponentType } from '@angular/cdk/portal'
 import { Injector, TemplateRef } from '@angular/core'
-import { Graph, Registry } from '@antv/x6'
+import { Graph, Registry } from '@digiforce-cloud/x6'
 
 export type Content = TemplateRef<any> | ComponentType<any>
 
@@ -15,7 +15,7 @@ export const registry = Registry.create<
   type: 'angular componnet',
 })
 
-declare module '@antv/x6/lib/graph/graph' {
+declare module '@digiforce-cloud/x6/lib/graph/graph' {
   // eslint-disable-next-line @typescript-eslint/no-shadow
   namespace Graph {
     let registerAngularContent: typeof registry.register

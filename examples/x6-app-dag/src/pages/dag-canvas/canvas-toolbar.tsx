@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react'
-import { Toolbar } from '@antv/x6-react-components'
+import { Toolbar } from '@digiforce-cloud/x6-react-components'
 import {
   GatewayOutlined,
   GroupOutlined,

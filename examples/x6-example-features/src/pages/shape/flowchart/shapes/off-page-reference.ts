@@ -1,4 +1,4 @@
-import { NumberExt, Shape, Path, Point } from '@antv/x6'
+import { NumberExt, Shape, Path, Point } from '@digiforce-cloud/x6'
 
 Shape.Path.define({
   title: 'Off Page Reference',

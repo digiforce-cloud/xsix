@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Edge } from '@antv/x6'
+import { Graph, Edge } from '@digiforce-cloud/x6'
 import { Settings, State } from './settings'
 import './app.css'
 

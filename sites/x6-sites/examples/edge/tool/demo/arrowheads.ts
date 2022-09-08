@@ -1,4 +1,4 @@
-import { Graph, Shape } from '@antv/x6'
+import { Graph, Shape } from '@digiforce-cloud/x6'
 
 Shape.Rect.config({
   attrs: {

@@ -1,4 +1,4 @@
-import { Graph, Cell, Color } from '@antv/x6'
+import { Graph, Cell, Color } from '@digiforce-cloud/x6'
 
 const graph = new Graph({
   container: document.getElementById('container'),

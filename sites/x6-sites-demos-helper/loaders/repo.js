@@ -15,7 +15,7 @@ module.exports = () => {
 
   const pkg = fse.readJsonSync(path.join(repo, 'package.json'))
 
-  const excluedDeps = ['codesandbox', '@antv/x6-sites-demos-helper']
+  const excluedDeps = ['codesandbox', '@digiforce-cloud/x6-sites-demos-helper']
   const excludeDirs = ['node_modules']
   const excludeFiles = [
     '.env',

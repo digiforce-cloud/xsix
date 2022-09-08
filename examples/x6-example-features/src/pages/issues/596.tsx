@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph } from '@antv/x6'
+import { Graph } from '@digiforce-cloud/x6'
 import '../index.less'
 
 Graph.registerNode(
@@ -43,8 +43,7 @@ const data = {
       y: 40,
       attrs: {
         label: {
-          text:
-            'testing测试测试测试thisisaveryveryveryveryveryverylongword jsvascriptjsvascriptjsvascript',
+          text: 'testing测试测试测试thisisaveryveryveryveryveryverylongword jsvascriptjsvascriptjsvascript',
         },
       },
     },

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Node } from '@antv/x6'
+import { Node } from '@digiforce-cloud/x6'
 import classNames from 'classnames'
 import { ConfigProvider } from 'antd'
 import { filter, map } from 'rxjs/operators'

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph } from '@antv/x6'
-import { Halo } from '@antv/x6/es/addon/halo'
+import { Graph } from '@digiforce-cloud/x6'
+import { Halo } from '@digiforce-cloud/x6/es/addon/halo'
 import '../index.less'
 import '../../../../../packages/x6/src/addon/halo/index.less'
 

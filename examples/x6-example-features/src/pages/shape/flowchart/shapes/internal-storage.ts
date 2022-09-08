@@ -1,4 +1,4 @@
-import { Shape, NumberExt } from '@antv/x6'
+import { Shape, NumberExt } from '@digiforce-cloud/x6'
 
 Shape.Path.define({
   shape: 'flowchart_internal_storage',

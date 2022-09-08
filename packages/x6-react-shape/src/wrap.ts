@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, FunctionExt } from '@antv/x6'
+import { Graph, FunctionExt } from '@digiforce-cloud/x6'
 import { ReactShape } from './node'
 import { Definition } from './registry'
 

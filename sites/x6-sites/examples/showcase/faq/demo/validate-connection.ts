@@ -1,4 +1,4 @@
-import { Graph, Edge, Shape, NodeView } from '@antv/x6'
+import { Graph, Edge, Shape, NodeView } from '@digiforce-cloud/x6'
 
 // 定义节点
 class MyShape extends Shape.Rect {

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph, Node, Color } from '@antv/x6'
-import '@antv/x6-react-shape'
+import { Graph, Node, Color } from '@digiforce-cloud/x6'
+import '@digiforce-cloud/x6-react-shape'
 import '../index.less'
 
 class MyComponent extends React.Component<{ node?: Node; text: string }> {
@@ -82,7 +82,7 @@ export default class Example extends React.Component {
       height: 60,
       useForeignObject: false,
       component: () => {
-        return  <circle stroke="red" cx="30" cy="30" r="30"/>
+        return <circle stroke="red" cx="30" cy="30" r="30" />
       },
     })
 

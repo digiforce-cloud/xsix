@@ -1,4 +1,4 @@
-import { Graph, FunctionExt, Vector, Rectangle } from '@antv/x6'
+import { Graph, FunctionExt, Vector, Rectangle } from '@digiforce-cloud/x6'
 import { FitToContentCard } from './fit-card'
 import { ScaleContentToFitCard } from './scale-card'
 

@@ -1,4 +1,4 @@
-import { Graph, Node, Edge, Shape } from '@antv/x6'
+import { Graph, Node, Edge, Shape } from '@digiforce-cloud/x6'
 
 // 定义节点
 class TreeNode extends Node {

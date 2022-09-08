@@ -1,5 +1,5 @@
-import { Graph, Path, Point } from '@antv/x6'
-import { Connector } from '@antv/x6/lib/registry'
+import { Graph, Path, Point } from '@digiforce-cloud/x6'
+import { Connector } from '@digiforce-cloud/x6/lib/registry'
 
 export const connectors = {
   root: 'xmind-root-curve',

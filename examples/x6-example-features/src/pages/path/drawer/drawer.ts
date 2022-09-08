@@ -1,4 +1,4 @@
-import { ObjectExt, Dom, Vector, Point, View } from '@antv/x6'
+import { ObjectExt, Dom, Vector, Point, View } from '@digiforce-cloud/x6'
 
 // need: <meta http-equiv="x-ua-compatible" content="IE=Edge" />
 export class PathDrawer extends View {

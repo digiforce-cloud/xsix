@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph } from '@antv/x6'
+import { Graph } from '@digiforce-cloud/x6'
 import { Input, Checkbox, Select, Slider, Card, Row, Col } from 'antd'
 
 export class BackgroundCard extends React.Component<

@@ -1,8 +1,8 @@
-import { Graph, FunctionExt } from '@antv/x6'
+import { Graph, FunctionExt } from '@digiforce-cloud/x6'
 import { registry, Definition } from './registry'
 import { VueShape } from './node'
 
-declare module '@antv/x6/lib/graph/hook' {
+declare module '@digiforce-cloud/x6/lib/graph/hook' {
   namespace Hook {
     interface IHook {
       getVueComponent(this: Graph, node: VueShape): Definition

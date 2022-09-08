@@ -1,5 +1,5 @@
 import React from 'react'
-import { SVG } from '@antv/x6-vector'
+import { SVG } from '@digiforce-cloud/x6-vector'
 import '../index.less'
 
 export default class Example extends React.Component {

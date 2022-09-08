@@ -1,6 +1,6 @@
 import React from 'react'
 import { Select } from 'antd'
-import { Graph, Cell, Node, Color, Dom } from '@antv/x6'
+import { Graph, Cell, Node, Color, Dom } from '@digiforce-cloud/x6'
 import dagre from 'dagre'
 import './shape'
 import '../index.less'

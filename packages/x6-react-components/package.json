@@ -1,5 +1,5 @@
 {
-  "name": "@antv/x6-react-components",
+  "name": "@digiforce-cloud/x6-react-components",
   "version": "1.1.16",
   "description": "React components for building x6 editors",
   "main": "lib/index.js",
@@ -53,12 +53,12 @@
     ]
   },
   "inherits": [
-    "@antv/x6-package-json/cli.json",
-    "@antv/x6-package-json/antd.json",
-    "@antv/x6-package-json/react.json",
-    "@antv/x6-package-json/less.json",
-    "@antv/x6-package-json/eslint.json",
-    "@antv/x6-package-json/rollup.json"
+    "@digiforce-cloud/x6-package-json/cli.json",
+    "@digiforce-cloud/x6-package-json/antd.json",
+    "@digiforce-cloud/x6-package-json/react.json",
+    "@digiforce-cloud/x6-package-json/less.json",
+    "@digiforce-cloud/x6-package-json/eslint.json",
+    "@digiforce-cloud/x6-package-json/rollup.json"
   ],
   "peerDependencies": {
     "antd": ">=4.4.2",

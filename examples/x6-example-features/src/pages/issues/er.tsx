@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Edge } from '@antv/x6'
+import { Graph, Edge } from '@digiforce-cloud/x6'
 import '../index.less'
 
 export default class Example extends React.Component {
@@ -56,14 +56,10 @@ export default class Example extends React.Component {
 
     graph.on('edge:connected', ({ edge }) => {
       graph.batchUpdate(() => {
-        const {
-          port: sourcePort,
-          ...source
-        } = edge.getSource() as Edge.TerminalCellData
-        const {
-          port: targetPort,
-          ...target
-        } = edge.getTarget() as Edge.TerminalCellData
+        const { port: sourcePort, ...source } =
+          edge.getSource() as Edge.TerminalCellData
+        const { port: targetPort, ...target } =
+          edge.getTarget() as Edge.TerminalCellData
 
         edge.removeProp('source')
         edge.removeProp('target')

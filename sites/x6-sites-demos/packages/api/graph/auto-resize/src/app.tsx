@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Graph } from '@antv/x6'
-import { SplitBox } from '@antv/x6-react-components'
-import '@antv/x6-react-components/es/split-box/style/index.css'
+import { Graph } from '@digiforce-cloud/x6'
+import { SplitBox } from '@digiforce-cloud/x6-react-components'
+import '@digiforce-cloud/x6-react-components/es/split-box/style/index.css'
 import './app.css'
 
 export default class Example extends React.Component {

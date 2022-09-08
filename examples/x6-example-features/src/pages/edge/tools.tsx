@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Util, Timing } from '@antv/x6'
+import { Graph, Util, Timing } from '@digiforce-cloud/x6'
 import '../index.less'
 
 function registerEdgeTool(name: string, inherit: string, options: any) {

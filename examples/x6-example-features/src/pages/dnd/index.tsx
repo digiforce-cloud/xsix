@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'antd'
-import { Graph, Dom } from '@antv/x6'
-import { Dnd } from '@antv/x6/es/addon/dnd'
+import { Graph, Dom } from '@digiforce-cloud/x6'
+import { Dnd } from '@digiforce-cloud/x6/es/addon/dnd'
 import '../index.less'
 import './index.less'
 

@@ -1,8 +1,8 @@
-import { FunctionExt, Graph } from '@antv/x6'
+import { FunctionExt, Graph } from '@digiforce-cloud/x6'
 import { ContentArgs, registry } from './registry'
 import { AngularShape } from './node'
 
-declare module '@antv/x6/lib/graph/hook' {
+declare module '@digiforce-cloud/x6/lib/graph/hook' {
   namespace Hook {
     interface IHook {
       getAngularContent(this: Graph, node: AngularShape): ContentArgs

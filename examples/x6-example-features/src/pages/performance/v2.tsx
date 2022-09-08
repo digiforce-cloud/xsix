@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph, Color } from '@antv/x6'
-import '@antv/x6-react-shape'
+import { Graph, Color } from '@digiforce-cloud/x6'
+import '@digiforce-cloud/x6-react-shape'
 import { Button } from 'antd'
 import '../index.less'
 

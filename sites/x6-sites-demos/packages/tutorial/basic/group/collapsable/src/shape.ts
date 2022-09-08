@@ -1,4 +1,4 @@
-import { Node } from '@antv/x6'
+import { Node } from '@digiforce-cloud/x6'
 
 export class Group extends Node {
   private collapsed: boolean = false

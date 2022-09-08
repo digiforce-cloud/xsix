@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@antv/x6-sites-demos-helper",
+  "name": "@digiforce-cloud/x6-sites-demos-helper",
   "version": "1.2.2",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -35,10 +35,10 @@
     ]
   },
   "inherits": [
-    "@antv/x6-package-json/cli.json",
-    "@antv/x6-package-json/antd.json",
-    "@antv/x6-package-json/less.json",
-    "@antv/x6-package-json/eslint.json"
+    "@digiforce-cloud/x6-package-json/cli.json",
+    "@digiforce-cloud/x6-package-json/antd.json",
+    "@digiforce-cloud/x6-package-json/less.json",
+    "@digiforce-cloud/x6-package-json/eslint.json"
   ],
   "dependencies": {
     "@ant-design/icons": "^4.2.1",

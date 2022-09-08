@@ -12,7 +12,7 @@ if (index > 0) {
   const pkgpath = path.join(cwd, 'package.json')
   const pkg = fse.readJsonSync(pkgpath)
   if (pkg) {
-    pkg.name = `@antv/x6-sites-demos-${name}`
+    pkg.name = `@digiforce-cloud/x6-sites-demos-${name}`
   }
   fse.writeJsonSync(pkgpath, pkg, { spaces: 2 })
 

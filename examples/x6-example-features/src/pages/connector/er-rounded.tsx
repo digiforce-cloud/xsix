@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Point, Path } from '@antv/x6'
+import { Graph, Point, Path } from '@digiforce-cloud/x6'
 import '../index.less'
 
 export interface ErRoundedArgs {

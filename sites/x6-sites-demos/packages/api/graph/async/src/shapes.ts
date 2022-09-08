@@ -1,4 +1,4 @@
-import { Graph, Color } from '@antv/x6'
+import { Graph, Color } from '@digiforce-cloud/x6'
 
 const color1 = Color.randomHex()
 const color2 = Color.randomHex()

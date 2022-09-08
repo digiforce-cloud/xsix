@@ -1,5 +1,5 @@
-import { Dom, Node } from '@antv/x6'
-import { ReactShape } from '@antv/x6-react-shape'
+import { Dom, Node } from '@digiforce-cloud/x6'
+import { ReactShape } from '@digiforce-cloud/x6-react-shape'
 import { NODE_WIDTH, NODE_HEIGHT } from '@/constants/graph'
 
 export class BaseNode extends ReactShape {

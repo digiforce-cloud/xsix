@@ -1,7 +1,7 @@
 import React from 'react'
-import { Graph } from '@antv/x6'
-import { Stencil } from '@antv/x6/es/addon/stencil'
-import { Rect, Circle } from '@antv/x6/es/shape/basic'
+import { Graph } from '@digiforce-cloud/x6'
+import { Stencil } from '@digiforce-cloud/x6/es/addon/stencil'
+import { Rect, Circle } from '@digiforce-cloud/x6/es/shape/basic'
 import '../index.less'
 
 export default class Example extends React.Component {

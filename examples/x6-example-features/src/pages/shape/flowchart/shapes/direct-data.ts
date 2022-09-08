@@ -1,4 +1,4 @@
-import { Shape, Path } from '@antv/x6'
+import { Shape, Path } from '@digiforce-cloud/x6'
 
 Shape.Path.define({
   shape: 'flowchart_direct_data',

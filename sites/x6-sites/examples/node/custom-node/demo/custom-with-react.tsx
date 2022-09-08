@@ -1,6 +1,6 @@
 import React from 'react'
-import { Graph, Node, Color } from '@antv/x6'
-import { ReactShape } from '@antv/x6-react-shape'
+import { Graph, Node, Color } from '@digiforce-cloud/x6'
+import { ReactShape } from '@digiforce-cloud/x6-react-shape'
 
 // 使用教程：https://x6.antv.vision/zh/docs/tutorial/advanced/react#%E6%B8%B2%E6%9F%93-react-%E8%8A%82%E7%82%B9
 

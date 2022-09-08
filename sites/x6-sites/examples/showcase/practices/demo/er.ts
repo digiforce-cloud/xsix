@@ -1,4 +1,4 @@
-import { Graph, Cell, Shape } from '@antv/x6'
+import { Graph, Cell, Shape } from '@digiforce-cloud/x6'
 
 const LINE_HEIGHT = 24
 const NODE_WIDTH = 150

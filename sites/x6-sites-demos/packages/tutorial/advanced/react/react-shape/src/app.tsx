@@ -1,7 +1,7 @@
 import React from 'react'
-import { Graph, Node, Color } from '@antv/x6'
+import { Graph, Node, Color } from '@digiforce-cloud/x6'
 import { MyComponent } from './component'
-import '@antv/x6-react-shape'
+import '@digiforce-cloud/x6-react-shape'
 import './app.css'
 
 export default class Example extends React.Component {

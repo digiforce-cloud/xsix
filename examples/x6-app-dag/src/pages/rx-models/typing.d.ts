@@ -1,4 +1,4 @@
-import { EdgeView } from '@antv/x6'
+import { EdgeView } from '@digiforce-cloud/x6'
 
 // 实验
 export namespace NExperiment {

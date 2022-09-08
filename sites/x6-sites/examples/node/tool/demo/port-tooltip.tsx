@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Graph } from '@antv/x6'
+import { Graph } from '@digiforce-cloud/x6'
 import { Tooltip } from 'antd'
 
 const registerPortTooltip = (container: Element, text: string) => {

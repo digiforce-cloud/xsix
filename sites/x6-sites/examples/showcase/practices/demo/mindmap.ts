@@ -1,4 +1,4 @@
-import { Graph, Cell, Node, Path } from '@antv/x6'
+import { Graph, Cell, Node, Path } from '@digiforce-cloud/x6'
 import Hierarchy from '@antv/hierarchy'
 import insertCss from 'insert-css'
 

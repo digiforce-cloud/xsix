@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef } from 'react'
 import { message } from 'antd'
-import '@antv/x6-react-shape'
+import '@digiforce-cloud/x6-react-shape'
 import { useDrop } from 'react-dnd'
 import classNames from 'classnames'
 import { DRAGGABLE_ALGO_COMPONENT, DRAGGABLE_MODEL } from '@/constants/graph'

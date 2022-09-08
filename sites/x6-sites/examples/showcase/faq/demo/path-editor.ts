@@ -1,4 +1,4 @@
-import { Graph, Node, Edge, EdgeView } from '@antv/x6'
+import { Graph, Node, Edge, EdgeView } from '@digiforce-cloud/x6'
 
 let edge: Edge | null = null
 let node: Node | null = null

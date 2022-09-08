@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Graph, Dom, Shape, Node } from '@antv/x6'
+import { Graph, Dom, Shape, Node } from '@digiforce-cloud/x6'
 import { Tooltip } from 'antd'
 import classnames from 'classnames'
-import '@antv/x6-react-shape'
+import '@digiforce-cloud/x6-react-shape'
 import './port.less'
 import '../index.less'
 

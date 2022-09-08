@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Rectangle } from '@antv/x6'
+import { Graph, Rectangle } from '@digiforce-cloud/x6'
 import '../index.less'
 import './index.less'
 import { render } from './render'
@@ -77,7 +77,7 @@ export default class Example extends React.Component<
           }),
         })
       })
-      .on('translate', ({origin: {x, y}}) => {
+      .on('translate', ({ origin: { x, y } }) => {
         this.effect.hideAll()
         this.setState({
           attrs: getAttrs({

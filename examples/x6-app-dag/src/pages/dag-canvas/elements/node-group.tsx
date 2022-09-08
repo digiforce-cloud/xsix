@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import { Popover, ConfigProvider } from 'antd'
 import { MinusSquareOutlined, PlusSquareOutlined } from '@ant-design/icons'
-import { Edge } from '@antv/x6'
+import { Edge } from '@digiforce-cloud/x6'
 import { ANT_PREFIX } from '@/constants/global'
 import { calcNodeScale } from '@/pages/rx-models/graph-util'
 import { useExperimentGraph } from '@/pages/rx-models/experiment-graph'

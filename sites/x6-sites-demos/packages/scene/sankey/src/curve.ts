@@ -1,4 +1,4 @@
-import { Graph, Path } from '@antv/x6'
+import { Graph, Path } from '@digiforce-cloud/x6'
 
 Graph.registerConnector('curve', (sourcePoint, targetPoint) => {
   const path = new Path()

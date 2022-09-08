@@ -1,4 +1,4 @@
-import { Node, Edge, Shape } from '@antv/x6'
+import { Node, Edge, Shape } from '@digiforce-cloud/x6'
 
 export class TreeNode extends Node {
   private collapsed: boolean = false

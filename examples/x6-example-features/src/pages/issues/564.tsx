@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
-import { Graph, NodeView, DataUri } from '@antv/x6'
+import { Graph, NodeView, DataUri } from '@digiforce-cloud/x6'
 import '../index.less'
 
 class SimpleNodeView extends NodeView {

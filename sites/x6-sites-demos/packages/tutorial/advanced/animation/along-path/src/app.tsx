@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Vector } from '@antv/x6'
+import { Graph, Vector } from '@digiforce-cloud/x6'
 import './app.css'
 
 export default class Example extends React.Component {

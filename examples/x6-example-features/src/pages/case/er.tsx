@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Cell, Shape } from '@antv/x6'
+import { Graph, Cell, Shape } from '@digiforce-cloud/x6'
 import '../index.less'
 
 Graph.registerPortLayout(

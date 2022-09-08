@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Shape, Edge, Timing } from '@antv/x6'
+import { Graph, Shape, Edge, Timing } from '@digiforce-cloud/x6'
 import '../index.less'
 
 export default class Example extends React.Component {

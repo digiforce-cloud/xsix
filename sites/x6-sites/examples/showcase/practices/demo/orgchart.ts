@@ -1,4 +1,4 @@
-import { Graph, Cell, Node, Color, Dom } from '@antv/x6'
+import { Graph, Cell, Node, Color, Dom } from '@digiforce-cloud/x6'
 import dagre from 'dagre'
 import insertCss from 'insert-css'
 

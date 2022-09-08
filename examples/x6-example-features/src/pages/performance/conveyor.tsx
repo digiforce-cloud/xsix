@@ -1,5 +1,13 @@
 import React from 'react'
-import { Graph, Node, NodeView, Point, Angle, Dom, Vector } from '@antv/x6'
+import {
+  Graph,
+  Node,
+  NodeView,
+  Point,
+  Angle,
+  Dom,
+  Vector,
+} from '@digiforce-cloud/x6'
 import '../index.less'
 
 class ConveyorNode extends Node {

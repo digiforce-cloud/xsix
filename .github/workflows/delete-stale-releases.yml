@@ -21,9 +21,9 @@ jobs:
           keep_latest_count: 3
           group: '(?!^)@.*$'
           exclude: |
-            @antv/x6@**
-            @antv/x6-react@**
-            @antv/x6-vue-shape@**
-            @antv/x6-react-shape@**
-            @antv/x6-angular-shape@**
-            @antv/x6-react-components@**
+            @digiforce-cloud/x6@**
+            @digiforce-cloud/x6-react@**
+            @digiforce-cloud/x6-vue-shape@**
+            @digiforce-cloud/x6-react-shape@**
+            @digiforce-cloud/x6-angular-shape@**
+            @digiforce-cloud/x6-react-components@**

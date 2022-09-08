@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import { Menu, Dropdown } from 'antd'
-import { Graph, ToolsView, EdgeView } from '@antv/x6'
+import { Graph, ToolsView, EdgeView } from '@digiforce-cloud/x6'
 
 class ContextMenuTool extends ToolsView.ToolItem<
   EdgeView,

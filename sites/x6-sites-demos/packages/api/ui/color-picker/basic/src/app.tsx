@@ -1,6 +1,6 @@
 import React from 'react'
-import { ColorPicker } from '@antv/x6-react-components'
-import '@antv/x6-react-components/es/color-picker/style/index.css'
+import { ColorPicker } from '@digiforce-cloud/x6-react-components'
+import '@digiforce-cloud/x6-react-components/es/color-picker/style/index.css'
 
 export default class Example extends React.PureComponent {
   render() {

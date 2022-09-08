@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Button } from 'antd'
-import { Graph, Markup } from '@antv/x6'
+import { Graph, Markup } from '@digiforce-cloud/x6'
 import 'antd/dist/antd.css'
 import './app.css'
 

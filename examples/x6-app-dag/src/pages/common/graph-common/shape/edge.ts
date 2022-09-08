@@ -1,4 +1,4 @@
-import { Shape, Edge } from '@antv/x6'
+import { Shape, Edge } from '@digiforce-cloud/x6'
 import './edge.less'
 
 export class BaseEdge extends Shape.Edge {

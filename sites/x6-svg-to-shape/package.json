@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@antv/x6-svg-to-shape",
+  "name": "@digiforce-cloud/x6-svg-to-shape",
   "version": "1.0.6",
   "description": "convert svg to shape definition",
   "scripts": {
@@ -23,7 +23,7 @@
     ]
   },
   "dependencies": {
-    "@antv/x6": "^1.32.3",
+    "@digiforce-cloud/x6": "1.34.0",
     "@umijs/preset-react": "1.x",
     "antd": "^4.4.2",
     "classnames": "^2.2.6",

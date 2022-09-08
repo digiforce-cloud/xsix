@@ -1,4 +1,4 @@
-import { Graph, Timing } from '@antv/x6'
+import { Graph, Timing } from '@digiforce-cloud/x6'
 
 const graph = new Graph({
   container: document.getElementById('container'),

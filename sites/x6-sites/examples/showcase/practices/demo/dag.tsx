@@ -1,7 +1,7 @@
 import React from 'react'
-import { Graph, Node, Path, Cell } from '@antv/x6'
+import { Graph, Node, Path, Cell } from '@digiforce-cloud/x6'
 import insertCss from 'insert-css'
-import '@antv/x6-react-shape'
+import '@digiforce-cloud/x6-react-shape'
 
 interface NodeStatus {
   id: string

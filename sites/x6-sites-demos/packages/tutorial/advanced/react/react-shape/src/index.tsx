@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Wrap } from '@antv/x6-sites-demos-helper'
+import { Wrap } from '@digiforce-cloud/x6-sites-demos-helper'
 import App from './app'
 
 ReactDOM.render(

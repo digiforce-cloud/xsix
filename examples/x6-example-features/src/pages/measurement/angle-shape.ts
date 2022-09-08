@@ -7,7 +7,7 @@ import {
   Line,
   Angle,
   Registry,
-} from '@antv/x6'
+} from '@digiforce-cloud/x6'
 
 Graph.registerNode(
   'angle-node',
@@ -138,7 +138,7 @@ Graph.registerEdge(
             return defaults
           }
 
-          const attr = (val as {}) as AngleEdge.AngleOptions
+          const attr = val as {} as AngleEdge.AngleOptions
           var angleRadius = attr.radius || 40
           var angleStart = attr.start || 'self'
           var anglePie = attr.pie || false
@@ -181,7 +181,7 @@ Graph.registerEdge(
         set(val, options) {
           let text = ''
           const view = options.view as EdgeView
-          const attr = (val as {}) as AngleEdge.AngleTextOptions
+          const attr = val as {} as AngleEdge.AngleTextOptions
 
           let meta = AngleEdge.getArcMeta(view, attr.type, { radius: 40 })
           if (meta) {
@@ -237,7 +237,7 @@ namespace Cache {
     if (!(cacheKey in cache)) {
       cache[cacheKey] = {}
     }
-    return (cache[cacheKey] as Object) as {
+    return cache[cacheKey] as Object as {
       [key: string]: AngleEdge.Metadata | null
     }
   }

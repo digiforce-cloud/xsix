@@ -1,18 +1,18 @@
 {
   "private": true,
-  "name": "@antv/x6-example-features",
+  "name": "@digiforce-cloud/x6-example-features",
   "version": "1.2.2",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
     "lint": "eslint 'src/**/*.{js,ts}?(x)' --fix",
-    "precommit": "lint-staged"
+    "#precommit": "lint-staged"
   },
   "dependencies": {
-    "@antv/x6": "^1.34.0",
-    "@antv/x6-react-components": "^1.1.16",
-    "@antv/x6-react-shape": "^1.6.0",
-    "@antv/x6-vector": "^1.4.0",
+    "@digiforce-cloud/x6": "1.34.0",
+    "@digiforce-cloud/x6-react-components": "1.1.16",
+    "@digiforce-cloud/x6-react-shape": "1.6.1",
+    "@digiforce-cloud/x6-vector": "1.4.0",
     "antd": "^4.4.2",
     "classnames": "^2.2.6",
     "dagre": "^0.8.5",

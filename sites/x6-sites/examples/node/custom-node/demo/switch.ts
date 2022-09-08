@@ -1,4 +1,4 @@
-import { Graph } from '@antv/x6'
+import { Graph } from '@digiforce-cloud/x6'
 import insertCss from '../../edge/demo/node_modules/insert-css'
 
 const graph = new Graph({

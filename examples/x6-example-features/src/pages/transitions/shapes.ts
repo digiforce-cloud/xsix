@@ -1,4 +1,4 @@
-import { Node, Edge } from '@antv/x6'
+import { Node, Edge } from '@digiforce-cloud/x6'
 
 export const Star = Node.define({
   markup: [

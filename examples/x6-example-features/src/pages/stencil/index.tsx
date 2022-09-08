@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Shape, Addon } from '@antv/x6'
+import { Graph, Shape, Addon } from '@digiforce-cloud/x6'
 import '../index.less'
 import './index.less'
 

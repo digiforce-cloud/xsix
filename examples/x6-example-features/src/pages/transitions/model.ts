@@ -1,4 +1,4 @@
-import { Model } from '@antv/x6'
+import { Model } from '@digiforce-cloud/x6'
 import { Star, Name, Connection } from './shapes'
 
 export class Universe extends Model {
@@ -56,7 +56,7 @@ export class Universe extends Model {
     for (var i = 0, n = subgraph.length; i < n; i++) {
       var cell = subgraph[i]
       if (cell.isEdge()) {
-        (cell as Connection).highlight()
+        ;(cell as Connection).highlight()
       }
     }
   }
@@ -67,7 +67,7 @@ export class Universe extends Model {
     for (var i = 0, n = subgraph.length; i < n; i++) {
       var cell = subgraph[i]
       if (cell.isEdge()) {
-        (cell as Connection).unhighlight()
+        ;(cell as Connection).unhighlight()
       }
     }
   }

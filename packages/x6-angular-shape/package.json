@@ -1,5 +1,5 @@
 {
-  "name": "@antv/x6-angular-shape",
+  "name": "@digiforce-cloud/x6-angular-shape",
   "version": "1.3.1",
   "description": "X6 shape for rendering angular components.",
   "main": "lib/index.js",
@@ -40,16 +40,16 @@
     ]
   },
   "inherits": [
-    "@antv/x6-package-json/cli.json",
-    "@antv/x6-package-json/eslint.json",
-    "@antv/x6-package-json/rollup.json",
-    "@antv/x6-package-json/angular.json"
+    "@digiforce-cloud/x6-package-json/cli.json",
+    "@digiforce-cloud/x6-package-json/eslint.json",
+    "@digiforce-cloud/x6-package-json/rollup.json",
+    "@digiforce-cloud/x6-package-json/angular.json"
   ],
   "peerDependencies": {
     "@angular/cdk": ">=10.2.3",
     "@angular/common": "^10.2.3",
     "@angular/core": ">=10.2.3",
-    "@antv/x6": ">=1.0.0"
+    "@digiforce-cloud/x6": "1.34.0"
   },
   "devDependencies": {
     "@angular/cdk": "^10.2.3",

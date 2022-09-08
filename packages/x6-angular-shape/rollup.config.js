@@ -12,9 +12,14 @@ export default config({
         '@angular/cdk': 'AngularCDK',
         '@angular/core': 'AngularCore',
         '@angular/common': 'AngularCommon',
-        '@antv/x6': 'X6',
+        '@digiforce-cloud/x6': 'X6',
       },
     },
   ],
-  external: ['@antv/x6', '@angular/cdk', '@angular/core', '@angular/common'],
+  external: [
+    '@digiforce-cloud/x6',
+    '@angular/cdk',
+    '@angular/core',
+    '@angular/common',
+  ],
 })

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, message } from 'antd'
-import { Graph } from '@antv/x6'
+import { Graph } from '@digiforce-cloud/x6'
 import { Settings, State } from './settings'
 import './app.css'
 

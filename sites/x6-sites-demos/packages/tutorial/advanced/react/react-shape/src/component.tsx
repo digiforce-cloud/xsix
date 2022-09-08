@@ -1,6 +1,6 @@
 import React from 'react'
-import { Color } from '@antv/x6'
-import { ReactShape } from '@antv/x6-react-shape'
+import { Color } from '@digiforce-cloud/x6'
+import { ReactShape } from '@digiforce-cloud/x6-react-shape'
 
 export class MyComponent extends React.Component<{
   node?: ReactShape

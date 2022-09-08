@@ -1,4 +1,4 @@
-import { Graph, Line, Path, Curve } from '@antv/x6'
+import { Graph, Line, Path, Curve } from '@digiforce-cloud/x6'
 
 Graph.registerConnector(
   'multi-smooth',

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Graph, Node, Color } from '@antv/x6'
+import { Graph, Node, Color } from '@digiforce-cloud/x6'
 import '../index.less'
 import './dnd.less'
 

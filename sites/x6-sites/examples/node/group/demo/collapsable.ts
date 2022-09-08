@@ -1,4 +1,4 @@
-import { Graph, Node } from '@antv/x6'
+import { Graph, Node } from '@digiforce-cloud/x6'
 
 class Group extends Node {
   private collapsed: boolean = false

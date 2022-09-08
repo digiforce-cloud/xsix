@@ -1,6 +1,6 @@
 {
   "version": "1.0.12",
-  "name": "@antv/x6-geometry",
+  "name": "@digiforce-cloud/x6-geometry",
   "description": "Some useful geometry operations.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -45,10 +45,10 @@
     ]
   },
   "inherits": [
-    "@antv/x6-package-json/cli.json",
-    "@antv/x6-package-json/jest.json",
-    "@antv/x6-package-json/eslint.json",
-    "@antv/x6-package-json/rollup.json"
+    "@digiforce-cloud/x6-package-json/cli.json",
+    "@digiforce-cloud/x6-package-json/jest.json",
+    "@digiforce-cloud/x6-package-json/eslint.json",
+    "@digiforce-cloud/x6-package-json/rollup.json"
   ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^20.0.0",

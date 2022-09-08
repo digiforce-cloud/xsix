@@ -1,6 +1,6 @@
 import React, { memo, useEffect, useRef, useState } from 'react'
-import { Graph, Node, Color } from '@antv/x6'
-import { Portal, ReactShape } from '@antv/x6-react-shape'
+import { Graph, Node, Color } from '@digiforce-cloud/x6'
+import { Portal, ReactShape } from '@digiforce-cloud/x6-react-shape'
 import '../index.less'
 
 // You should do this outside your components

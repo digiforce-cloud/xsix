@@ -23,9 +23,9 @@
     ]
   },
   "inherits": [
-    "@antv/x6-package-json/cli.json",
-    "@antv/x6-package-json/less.json",
-    "@antv/x6-package-json/eslint.json"
+    "@digiforce-cloud/x6-package-json/cli.json",
+    "@digiforce-cloud/x6-package-json/less.json",
+    "@digiforce-cloud/x6-package-json/eslint.json"
   ],
   "devDependencies": {
     "@types/node": "^16.9.1",

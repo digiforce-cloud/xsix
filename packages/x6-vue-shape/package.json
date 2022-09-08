@@ -1,5 +1,5 @@
 {
-  "name": "@antv/x6-vue-shape",
+  "name": "@digiforce-cloud/x6-vue-shape",
   "version": "1.5.0",
   "description": "X6 shape for rendering vue components.",
   "main": "lib/index.js",
@@ -39,16 +39,16 @@
     ]
   },
   "inherits": [
-    "@antv/x6-package-json/cli.json",
-    "@antv/x6-package-json/vue.json",
-    "@antv/x6-package-json/eslint.json",
-    "@antv/x6-package-json/rollup.json"
+    "@digiforce-cloud/x6-package-json/cli.json",
+    "@digiforce-cloud/x6-package-json/vue.json",
+    "@digiforce-cloud/x6-package-json/eslint.json",
+    "@digiforce-cloud/x6-package-json/rollup.json"
   ],
   "dependencies": {
     "vue-demi": "latest"
   },
   "peerDependencies": {
-    "@antv/x6": ">=1.0.0",
+    "@digiforce-cloud/x6": "1.34.0",
     "@vue/composition-api": "^1.0.0-rc.6",
     "vue": "^2.6.12 || ^3.0.0"
   },

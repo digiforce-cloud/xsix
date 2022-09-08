@@ -1,5 +1,5 @@
-import { Graph } from '@antv/x6';
-import '@antv/x6-react-shape';
+import { Graph } from '@digiforce-cloud/x6';
+import '@digiforce-cloud/x6-react-shape';
 import X6BaseGraph from '../graph/baseGraph';
 import Node from '../graph/node';
 import Edge from '../graph/edge';

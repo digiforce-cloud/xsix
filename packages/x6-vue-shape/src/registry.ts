@@ -1,4 +1,4 @@
-import { Graph, Node, Registry } from '@antv/x6'
+import { Graph, Node, Registry } from '@digiforce-cloud/x6'
 import { ComponentInstance } from 'vue-demi'
 
 export declare type VueComponent = ComponentInstance
@@ -11,7 +11,7 @@ export const registry = Registry.create<Definition>({
   type: 'vue componnet',
 })
 
-declare module '@antv/x6/lib/graph/graph' {
+declare module '@digiforce-cloud/x6/lib/graph/graph' {
   // eslint-disable-next-line @typescript-eslint/no-shadow
   namespace Graph {
     let registerVueComponent: typeof registry.register

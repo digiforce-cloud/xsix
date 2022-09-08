@@ -1,4 +1,4 @@
-import { Graph, Model } from '@antv/x6'
+import { Graph, Model } from '@digiforce-cloud/x6'
 import { ForceLayout } from '@antv/layout'
 
 const graph = new Graph({

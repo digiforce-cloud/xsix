@@ -54,7 +54,7 @@ function exec(hashcode) {
     changed = previous !== hashcode
   }
 
-  const pkg = `@antv/x6-sites-demos-${name}`
+  const pkg = `@digiforce-cloud/x6-sites-demos-${name}`
   const msg = `${chalk.green('✔')} Deployed "${pkg}"`
 
   if (changed) {
